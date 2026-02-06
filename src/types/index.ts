@@ -12,6 +12,7 @@ export interface Venue {
   country_code: string;
   map_url: string; // Static map image
   venue_details: VenueSection[];
+  events?: Event[];
 }
 
 export interface Event {
@@ -19,6 +20,7 @@ export interface Event {
   name: string;
   datetime: string;
   venue: Venue;
+  venue_details?: VenueSection[];
 }
 
 export interface Ticket {

@@ -1,29 +1,25 @@
 
 import { NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET() {
-    const token = process.env.TIXSTOCK_TOKEN;
-
-    if (!token) {
-        return NextResponse.json({ error: 'Missing TIXSTOCK_TOKEN' }, { status: 500 });
-    }
-
     try {
-        const res = await fetch('https://sandbox-pf.tixstock.com/v1/venues/feed', {
-            headers: {
-                'Authorization': `Bearer ${token}`,
-                'Accept': 'application/json',
-            },
-        });
+        const cwd = process.cwd();
+        // Construct absolute path to the file. Adjust 'real_venue.json' location if needed.
+        // Based on file list, it's in the root.
+        const filePath = path.join(cwd, 'real_venue.json');
 
-        if (!res.ok) {
-            const errorText = await res.text();
-            return NextResponse.json({ error: `API Error: ${res.status}`, details: errorText }, { status: res.status });
-        }
+        const fileContent = fs.readFileSync(filePath, 'utf16le'); // The file seemed to be utf16le based on previous checks
 
-        const data = await res.json();
+        // Remove BOM if present
+        const cleanContent = fileContent.charCodeAt(0) === 65279 ? fileContent.slice(1) : fileContent;
+
+        const data = JSON.parse(cleanContent);
+
         return NextResponse.json(data);
     } catch (error) {
-        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+        console.error("Local API Error:", error);
+        return NextResponse.json({ error: 'Internal Server Error', details: String(error) }, { status: 500 });
     }
 }

@@ -13,6 +13,8 @@ import { Event } from '../types';
 // Fallback if API fails completely
 import { MOCK_EVENT } from '../data/mockData';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   const { setTickets } = useTicketStore();
   const [loading, setLoading] = useState(true);

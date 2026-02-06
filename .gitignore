@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# analysis scripts
+analyze_data.js
+inspect_event_keys.js

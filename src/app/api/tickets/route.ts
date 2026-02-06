@@ -1,11 +1,18 @@
 
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 export async function GET() {
     const token = process.env.TIXSTOCK_TOKEN;
 
     if (!token) {
-        return NextResponse.json({ error: 'Missing TIXSTOCK_TOKEN' }, { status: 500 });
+        console.error('TIXSTOCK_TOKEN environment variable is not set');
+        return NextResponse.json({
+            error: 'Missing TIXSTOCK_TOKEN',
+            message: 'Server configuration error'
+        }, { status: 500 });
     }
 
     try {
@@ -18,12 +25,20 @@ export async function GET() {
         });
 
         if (!res.ok) {
-            return NextResponse.json({ error: `API Error: ${res.status}` }, { status: res.status });
+            console.error(`Tixstock API Error: ${res.status} ${res.statusText}`);
+            return NextResponse.json({
+                error: `API Error: ${res.status}`,
+                message: res.statusText
+            }, { status: res.status });
         }
 
         const data = await res.json();
         return NextResponse.json(data);
     } catch (error) {
-        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+        console.error('Tickets API Error:', error);
+        return NextResponse.json({
+            error: 'Internal Server Error',
+            details: error instanceof Error ? error.message : String(error)
+        }, { status: 500 });
     }
 }

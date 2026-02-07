@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import VenueMap from '../components/VenueMap';
 import TicketFilter from '../components/TicketFilter';
 import TicketList from '../components/TicketList';
-import { Calendar, MapPin, Loader2 } from 'lucide-react';
+import { Calendar, MapPin, Loader2, BarChart3 } from 'lucide-react';
 import { useTicketStore } from '../store/ticketStore';
 import { fetchRealVenues, fetchRealTickets } from '../lib/api';
 import { generateMockTickets } from '../utils/mockGenerator';
@@ -110,20 +110,28 @@ export default function Home() {
       <header className="bg-white border-b border-gray-200 mb-8 sticky top-0 z-10 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">{event.name}</h1>
-          <div className="flex items-center gap-6 text-gray-500">
-            <span className="flex items-center gap-2">
-              <Calendar size={18} className="text-blue-600" />
-              {new Date(event.datetime).toLocaleDateString('en-GB', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
-            </span>
-            <span className="flex items-center gap-2">
-              <MapPin size={18} className="text-blue-600" />
-              {event.venue.name}, {event.venue.country_code}
-            </span>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-6 text-gray-500">
+              <span className="flex items-center gap-2">
+                <Calendar size={18} className="text-blue-600" />
+                {new Date(event.datetime).toLocaleDateString('en-GB', {
+                  weekday: 'long',
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </span>
+              <span className="flex items-center gap-2">
+                <MapPin size={18} className="text-blue-600" />
+                {event.venue.name}, {event.venue.country_code}
+              </span>
+            </div>
+            <a
+              href="/stats"
+              className="flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors font-medium text-sm">
+              <BarChart3 size={18} />
+              <span className="hidden sm:inline">Stats</span>
+            </a>
           </div>
           {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
         </div>

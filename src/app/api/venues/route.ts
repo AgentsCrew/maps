@@ -8,12 +8,11 @@ export const runtime = 'nodejs';
 
 export async function GET() {
     try {
-        // Read JSON file from filesystem (works better with Vercel serverless)
-        const filePath = path.join(process.cwd(), 'src', 'data', 'real_venue.json');
+        // Read JSON from public directory (included in Vercel deployment)
+        const filePath = path.join(process.cwd(), 'public', 'data', 'real_venue.json');
         const fileContents = fs.readFileSync(filePath, 'utf8');
         const venueData = JSON.parse(fileContents);
 
-        // Ensure data is properly serialized
         const response = NextResponse.json(venueData);
         response.headers.set('Cache-Control', 'no-store');
         return response;

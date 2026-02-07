@@ -1,0 +1,755 @@
+{
+    "data":  [
+                 {
+                     "id":  "01fwjww98bafe1akb91mn1h7b6",
+                     "name":  "Barclaycard Arena Hamburg",
+                     "address_line_1":  "Sylvesterallee 10",
+                     "address_line_2":  "",
+                     "city":  "Hamburg",
+                     "state":  "",
+                     "postcode":  "22525",
+                     "country_code":  "DE",
+                     "latitude":  53.5853519,
+                     "longitude":  9.9012053,
+                     "events":  [
+                                    {
+                                        "id":  "01jgzp7twk3fpgadnrp7kp5jnn",
+                                        "name":  "DJ Bobo Hamburg",
+                                        "datetime":  "2026-05-16T20:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-01-07T06:11:47+00:00",
+                                        "venue_details":  [
+                                                              {
+                                                                  "name":  "Innenraum",
+                                                                  "sections":  [
+                                                                                   "Innenraum"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Loge",
+                                                                  "sections":  [
+                                                                                   "Loge",
+                                                                                   "Loge 201",
+                                                                                   "Loge 202",
+                                                                                   "Loge 203",
+                                                                                   "Loge 204",
+                                                                                   "Loge 205",
+                                                                                   "Loge 206",
+                                                                                   "Loge 207",
+                                                                                   "Loge 208",
+                                                                                   "Loge 209",
+                                                                                   "Loge 210",
+                                                                                   "Loge 211",
+                                                                                   "Loge 212",
+                                                                                   "Loge 213",
+                                                                                   "Loge 214",
+                                                                                   "Loge 215",
+                                                                                   "Loge 216",
+                                                                                   "Loge 217",
+                                                                                   "Loge 218",
+                                                                                   "Loge 219",
+                                                                                   "Loge 220",
+                                                                                   "Loge 221",
+                                                                                   "Loge 222",
+                                                                                   "Loge 223",
+                                                                                   "Loge 224",
+                                                                                   "Loge 225",
+                                                                                   "Loge 226",
+                                                                                   "Loge 227",
+                                                                                   "Loge 228",
+                                                                                   "Loge 229",
+                                                                                   "Loge 230",
+                                                                                   "Loge 231",
+                                                                                   "Loge 232",
+                                                                                   "Loge 233",
+                                                                                   "Loge 234",
+                                                                                   "Loge 235",
+                                                                                   "Loge 236",
+                                                                                   "Loge 237",
+                                                                                   "Loge 238",
+                                                                                   "Loge 239",
+                                                                                   "Loge 240",
+                                                                                   "Loge 241",
+                                                                                   "Loge 242",
+                                                                                   "Loge 243",
+                                                                                   "Loge 244",
+                                                                                   "Loge 245",
+                                                                                   "Loge 246",
+                                                                                   "Loge 247",
+                                                                                   "Loge 248",
+                                                                                   "Loge 249",
+                                                                                   "Loge 250",
+                                                                                   "Loge 251",
+                                                                                   "Loge 252",
+                                                                                   "Loge 253",
+                                                                                   "Loge 254",
+                                                                                   "Loge 255",
+                                                                                   "Loge 256",
+                                                                                   "Loge 257",
+                                                                                   "Loge 258",
+                                                                                   "Loge 259",
+                                                                                   "Loge 260",
+                                                                                   "Loge 261",
+                                                                                   "Loge 262",
+                                                                                   "Loge 263",
+                                                                                   "Loge 264",
+                                                                                   "Loge 265",
+                                                                                   "Loge 266",
+                                                                                   "Loge 267",
+                                                                                   "Loge 268",
+                                                                                   "Loge 269",
+                                                                                   "Loge 270",
+                                                                                   "Loge 271",
+                                                                                   "Loge 272",
+                                                                                   "Loge 273",
+                                                                                   "Loge 274"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Oberrang",
+                                                                  "sections":  [
+                                                                                   "Oberrang",
+                                                                                   "Oberrang O1",
+                                                                                   "Oberrang O10",
+                                                                                   "Oberrang O11",
+                                                                                   "Oberrang O12",
+                                                                                   "Oberrang O13",
+                                                                                   "Oberrang O14",
+                                                                                   "Oberrang O15",
+                                                                                   "Oberrang O16",
+                                                                                   "Oberrang O17",
+                                                                                   "Oberrang O18",
+                                                                                   "Oberrang O19",
+                                                                                   "Oberrang O2",
+                                                                                   "Oberrang O3",
+                                                                                   "Oberrang O4",
+                                                                                   "Oberrang O5",
+                                                                                   "Oberrang O6",
+                                                                                   "Oberrang O7",
+                                                                                   "Oberrang O8",
+                                                                                   "Oberrang O9"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Unterrang",
+                                                                  "sections":  [
+                                                                                   "Unterrang",
+                                                                                   "Unterrang U1",
+                                                                                   "Unterrang U10",
+                                                                                   "Unterrang U11",
+                                                                                   "Unterrang U12",
+                                                                                   "Unterrang U13",
+                                                                                   "Unterrang U14",
+                                                                                   "Unterrang U15",
+                                                                                   "Unterrang U16",
+                                                                                   "Unterrang U17",
+                                                                                   "Unterrang U18",
+                                                                                   "Unterrang U19",
+                                                                                   "Unterrang U2",
+                                                                                   "Unterrang U20",
+                                                                                   "Unterrang U3",
+                                                                                   "Unterrang U4",
+                                                                                   "Unterrang U5",
+                                                                                   "Unterrang U6",
+                                                                                   "Unterrang U7",
+                                                                                   "Unterrang U8",
+                                                                                   "Unterrang U9"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Skylight Cafe",
+                                                                  "sections":  [
+                                                                                   "Skylight Cafe"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Gruppenloge",
+                                                                  "sections":  [
+                                                                                   "Gruppenloge 1",
+                                                                                   "Gruppenloge 2",
+                                                                                   "Gruppenloge 3"
+                                                                               ]
+                                                              }
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam1t7ths6war49hp9aw3",
+                                                         "name":  "Rock \u0026 Pop",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "01fwjww986zc9ct1vz6qnvb8jb",
+                     "name":  "Festhalle Frankfurt",
+                     "address_line_1":  "Ludwig-Erhard-Anlage 1",
+                     "address_line_2":  "",
+                     "city":  "Frankfurt am Main",
+                     "state":  "",
+                     "postcode":  "60327",
+                     "country_code":  "DE",
+                     "latitude":  50.1110882,
+                     "longitude":  8.6455521,
+                     "events":  [
+                                    {
+                                        "id":  "01jgzpckr21ard5m4vwjw6w05f",
+                                        "name":  "DJ Bobo Frankfurt",
+                                        "datetime":  "2026-05-31T19:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-01-07T06:14:20+00:00",
+                                        "venue_details":  [
+                                                              {
+                                                                  "name":  "Oberrang",
+                                                                  "sections":  [
+                                                                                   "Oberrang",
+                                                                                   "Oberrang A",
+                                                                                   "Oberrang B",
+                                                                                   "Oberrang C",
+                                                                                   "Oberrang D",
+                                                                                   "Oberrang E",
+                                                                                   "Oberrang F",
+                                                                                   "Oberrang G",
+                                                                                   "Oberrang H",
+                                                                                   "Oberrang J",
+                                                                                   "Oberrang K",
+                                                                                   "Oberrang L"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Unterrang",
+                                                                  "sections":  [
+                                                                                   "Unterrang",
+                                                                                   "Unterrang A",
+                                                                                   "Unterrang B",
+                                                                                   "Unterrang C",
+                                                                                   "Unterrang D",
+                                                                                   "Unterrang E",
+                                                                                   "Unterrang G",
+                                                                                   "Unterrang H",
+                                                                                   "Unterrang J",
+                                                                                   "Unterrang K",
+                                                                                   "Unterrang L"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Innenraum",
+                                                                  "sections":  [
+                                                                                   "Innenraum"
+                                                                               ]
+                                                              }
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam1t7ths6war49hp9aw3",
+                                                         "name":  "Rock \u0026 Pop",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "01fwjww95g6dzw9sefh7gy7p51",
+                     "name":  "Lanxess Arena",
+                     "address_line_1":  "Willy-Brandt-Platz 3",
+                     "address_line_2":  "",
+                     "city":  "Köln",
+                     "state":  "",
+                     "postcode":  "50679",
+                     "country_code":  "DE",
+                     "latitude":  50.9383376,
+                     "longitude":  6.9829511,
+                     "events":  [
+                                    {
+                                        "id":  "01jgzpmksj214ttg2rgmsrm5v2",
+                                        "name":  "DJ Bobo Cologne",
+                                        "datetime":  "2026-06-06T20:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-01-07T06:18:44+00:00",
+                                        "venue_details":  [
+
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam1t7ths6war49hp9aw3",
+                                                         "name":  "Rock \u0026 Pop",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "01fwjww97w70jqpqsa41astc1v",
+                     "name":  "Olympiahalle München",
+                     "address_line_1":  "Spiridon-Louis-Ring 21",
+                     "address_line_2":  "",
+                     "city":  "München",
+                     "state":  "",
+                     "postcode":  "80809",
+                     "country_code":  "DE",
+                     "latitude":  48.1748152,
+                     "longitude":  11.5499705,
+                     "events":  [
+                                    {
+                                        "id":  "01jcghbkmm2x476epzgm1xngrs",
+                                        "name":  "DJ Bobo Munich",
+                                        "datetime":  "2026-05-29T20:05:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2024-11-12T16:01:13+00:00",
+                                        "venue_details":  [
+                                                              {
+                                                                  "name":  "Arena Stehplatz",
+                                                                  "sections":  [
+                                                                                   "Arena Stehplatz"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Mittelrang",
+                                                                  "sections":  [
+                                                                                   "Mittelrang",
+                                                                                   "Mittelrang A 3",
+                                                                                   "Mittelrang A 4",
+                                                                                   "Mittelrang B 3",
+                                                                                   "Mittelrang B 4",
+                                                                                   "Mittelrang C 3",
+                                                                                   "Mittelrang C 4",
+                                                                                   "Mittelrang D 3",
+                                                                                   "Mittelrang D 4",
+                                                                                   "Mittelrang E 3",
+                                                                                   "Mittelrang E 4",
+                                                                                   "Mittelrang F 3",
+                                                                                   "Mittelrang F 4",
+                                                                                   "Mittelrang G 3",
+                                                                                   "Mittelrang G 4",
+                                                                                   "Mittelrang H 3",
+                                                                                   "Mittelrang H 4",
+                                                                                   "Mittelrang J 3",
+                                                                                   "Mittelrang J 4",
+                                                                                   "Mittelrang K 3",
+                                                                                   "Mittelrang K 4",
+                                                                                   "Mittelrang L 3",
+                                                                                   "Mittelrang L 4",
+                                                                                   "Mittelrang M 3",
+                                                                                   "Mittelrang M 4",
+                                                                                   "Mittelrang N 3",
+                                                                                   "Mittelrang N 4",
+                                                                                   "Mittelrang O 3",
+                                                                                   "Mittelrang O 4",
+                                                                                   "Mittelrang P 3",
+                                                                                   "Mittelrang P 4",
+                                                                                   "Mittelrang Q 3",
+                                                                                   "Mittelrang Q 4",
+                                                                                   "Mittelrang R 3",
+                                                                                   "Mittelrang R 4",
+                                                                                   "Mittelrang S 3",
+                                                                                   "Mittelrang S 4",
+                                                                                   "Mittelrang T 3",
+                                                                                   "Mittelrang T 4",
+                                                                                   "Mittelrang U 3",
+                                                                                   "Mittelrang U 4",
+                                                                                   "Mittelrang V 3",
+                                                                                   "Mittelrang V 4",
+                                                                                   "Mittelrang W 3",
+                                                                                   "Mittelrang W 4"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Oberrang",
+                                                                  "sections":  [
+                                                                                   "Oberrang",
+                                                                                   "Oberrang B 5",
+                                                                                   "Oberrang B 6",
+                                                                                   "Oberrang C 5",
+                                                                                   "Oberrang C 6",
+                                                                                   "Oberrang D 5",
+                                                                                   "Oberrang D 6",
+                                                                                   "Oberrang E 5",
+                                                                                   "Oberrang E 6",
+                                                                                   "Oberrang F 5",
+                                                                                   "Oberrang F 6",
+                                                                                   "Oberrang G 5",
+                                                                                   "Oberrang G 6",
+                                                                                   "Oberrang H 5",
+                                                                                   "Oberrang H 6",
+                                                                                   "Oberrang J 5",
+                                                                                   "Oberrang J 6"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Umgriff Stehplatz",
+                                                                  "sections":  [
+                                                                                   "Umgriff Stehplatz"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Unterrang",
+                                                                  "sections":  [
+                                                                                   "Unterrang",
+                                                                                   "Unterrang A 1",
+                                                                                   "Unterrang A 2",
+                                                                                   "Unterrang B 1",
+                                                                                   "Unterrang B 2",
+                                                                                   "Unterrang C 1",
+                                                                                   "Unterrang C 2",
+                                                                                   "Unterrang D 1",
+                                                                                   "Unterrang D 2",
+                                                                                   "Unterrang E 1",
+                                                                                   "Unterrang E 2",
+                                                                                   "Unterrang F 1",
+                                                                                   "Unterrang F 2",
+                                                                                   "Unterrang G 1",
+                                                                                   "Unterrang G 2",
+                                                                                   "Unterrang H 1",
+                                                                                   "Unterrang H 2",
+                                                                                   "Unterrang J 1",
+                                                                                   "Unterrang J 2",
+                                                                                   "Unterrang K 1",
+                                                                                   "Unterrang K 2",
+                                                                                   "Unterrang L 1",
+                                                                                   "Unterrang L 2",
+                                                                                   "Unterrang M 1",
+                                                                                   "Unterrang M 2",
+                                                                                   "Unterrang N 1",
+                                                                                   "Unterrang N 2",
+                                                                                   "Unterrang O 1",
+                                                                                   "Unterrang O 2",
+                                                                                   "Unterrang P 1",
+                                                                                   "Unterrang P 2",
+                                                                                   "Unterrang Q 1",
+                                                                                   "Unterrang Q 2",
+                                                                                   "Unterrang R 1",
+                                                                                   "Unterrang R 2",
+                                                                                   "Unterrang S 1",
+                                                                                   "Unterrang S 2",
+                                                                                   "Unterrang T 1",
+                                                                                   "Unterrang T 2",
+                                                                                   "Unterrang U 1",
+                                                                                   "Unterrang U 2",
+                                                                                   "Unterrang V 1",
+                                                                                   "Unterrang V 2",
+                                                                                   "Unterrang W 1",
+                                                                                   "Unterrang W 2"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Innenraum",
+                                                                  "sections":  [
+                                                                                   "Innenraum"
+                                                                               ]
+                                                              }
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam2gj18a5yr3evt42hb4",
+                                                         "name":  "Rap / Hip Hop / Reggae",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "01g5qneh5w3qb4dtrdqgm9p9sc",
+                     "name":  "Olympiastadion München",
+                     "address_line_1":  "Arenastraße 1",
+                     "address_line_2":  "",
+                     "city":  "München",
+                     "state":  "",
+                     "postcode":  "46047",
+                     "country_code":  "DE",
+                     "latitude":  51.4900544,
+                     "longitude":  6.8731637,
+                     "events":  [
+                                    {
+                                        "id":  "01jgzpmcaygy4a898wzhbw6jyp",
+                                        "name":  "DJ Bobo Oberhausen",
+                                        "datetime":  "2026-06-05T20:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-11-21T13:58:50+00:00",
+                                        "venue_details":  [
+                                                              {
+                                                                  "name":  "Oberrang",
+                                                                  "sections":  [
+                                                                                   "Oberrang",
+                                                                                   "Oberrang 202",
+                                                                                   "Oberrang 203",
+                                                                                   "Oberrang 204",
+                                                                                   "Oberrang 201",
+                                                                                   "Oberrang 205",
+                                                                                   "Oberrang 206",
+                                                                                   "Oberrang 207",
+                                                                                   "Oberrang 208",
+                                                                                   "Oberrang 209",
+                                                                                   "Oberrang 210",
+                                                                                   "Oberrang 211",
+                                                                                   "Oberrang 212",
+                                                                                   "Oberrang 213",
+                                                                                   "Oberrang 214",
+                                                                                   "Oberrang 215",
+                                                                                   "Oberrang 216",
+                                                                                   "Oberrang 217",
+                                                                                   "Oberrang 218",
+                                                                                   "Oberrang 219"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Unterrang",
+                                                                  "sections":  [
+                                                                                   "Unterrang",
+                                                                                   "Unterrang 101",
+                                                                                   "Unterrang",
+                                                                                   "Unterrang 102",
+                                                                                   "Unterrang 103",
+                                                                                   "Unterrang 104",
+                                                                                   "Unterrang 105",
+                                                                                   "Unterrang 106",
+                                                                                   "Unterrang 107",
+                                                                                   "Unterrang 108",
+                                                                                   "Unterrang 109",
+                                                                                   "Unterrang 110",
+                                                                                   "Unterrang 111",
+                                                                                   "Unterrang 112",
+                                                                                   "Unterrang 113",
+                                                                                   "Unterrang 114",
+                                                                                   "Unterrang 115"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Innenraum",
+                                                                  "sections":  [
+                                                                                   "Innenraum"
+                                                                               ]
+                                                              }
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam1t7ths6war49hp9aw3",
+                                                         "name":  "Rock \u0026 Pop",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "01gvpjgqw40kphdy19m05txhe6",
+                     "name":  "ZAG Arena",
+                     "address_line_1":  "Expo Plaza 7",
+                     "address_line_2":  "",
+                     "city":  "Hannover",
+                     "state":  "",
+                     "postcode":  "30539",
+                     "country_code":  "DE",
+                     "latitude":  52.3225103,
+                     "longitude":  9.8164767,
+                     "events":  [
+                                    {
+                                        "id":  "01jgxxaw78cc3qj3g6w0q5q0hz",
+                                        "name":  "DJ Bobo Hannover",
+                                        "datetime":  "2026-06-04T20:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-11-10T06:48:36+00:00",
+                                        "venue_details":  [
+
+                                                          ],
+                                        "performers":  [
+
+                                                       ],
+                                        "category":  null
+                                    },
+                                    {
+                                        "id":  "01jgzpjkrzf85s9vb9z5nxxe4y",
+                                        "name":  "DJ Bobo Hannover",
+                                        "datetime":  "2026-06-04T20:00:00+0000",
+                                        "status":  "Active",
+                                        "map_url":  "",
+                                        "last_updated":  "2025-11-10T06:48:36+00:00",
+                                        "venue_details":  [
+                                                              {
+                                                                  "name":  "Innenraum",
+                                                                  "sections":  [
+                                                                                   "Innenraum"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Loge",
+                                                                  "sections":  [
+                                                                                   "Loge",
+                                                                                   "Loge 1",
+                                                                                   "Loge 10",
+                                                                                   "Loge 11",
+                                                                                   "Loge 12",
+                                                                                   "Loge 13",
+                                                                                   "Loge 14",
+                                                                                   "Loge 15",
+                                                                                   "Loge 16",
+                                                                                   "Loge 17",
+                                                                                   "Loge 18",
+                                                                                   "Loge 19",
+                                                                                   "Loge 2",
+                                                                                   "Loge 20",
+                                                                                   "Loge 21",
+                                                                                   "Loge 22",
+                                                                                   "Loge 23",
+                                                                                   "Loge 24",
+                                                                                   "Loge 25",
+                                                                                   "Loge 26",
+                                                                                   "Loge 27",
+                                                                                   "Loge 28",
+                                                                                   "Loge 29",
+                                                                                   "Loge 3",
+                                                                                   "Loge 30",
+                                                                                   "Loge 31",
+                                                                                   "Loge 32",
+                                                                                   "Loge 33",
+                                                                                   "Loge 34",
+                                                                                   "Loge 35",
+                                                                                   "Loge 36",
+                                                                                   "Loge 4",
+                                                                                   "Loge 5",
+                                                                                   "Loge 6",
+                                                                                   "Loge 7",
+                                                                                   "Loge 8",
+                                                                                   "Loge 9"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Oberrang",
+                                                                  "sections":  [
+                                                                                   "Oberrang",
+                                                                                   "Oberrang 1",
+                                                                                   "Oberrang 10",
+                                                                                   "Oberrang 11",
+                                                                                   "Oberrang 12",
+                                                                                   "Oberrang 13",
+                                                                                   "Oberrang 14",
+                                                                                   "Oberrang 15",
+                                                                                   "Oberrang 16",
+                                                                                   "Oberrang 17",
+                                                                                   "Oberrang 18",
+                                                                                   "Oberrang 19",
+                                                                                   "Oberrang 2",
+                                                                                   "Oberrang 20",
+                                                                                   "Oberrang 3",
+                                                                                   "Oberrang 4",
+                                                                                   "Oberrang 5",
+                                                                                   "Oberrang 6",
+                                                                                   "Oberrang 7",
+                                                                                   "Oberrang 8",
+                                                                                   "Oberrang 9"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Unterrang",
+                                                                  "sections":  [
+                                                                                   "Unterrang",
+                                                                                   "Unterrang 1",
+                                                                                   "Unterrang 10",
+                                                                                   "Unterrang 11",
+                                                                                   "Unterrang 12",
+                                                                                   "Unterrang 13",
+                                                                                   "Unterrang 14",
+                                                                                   "Unterrang 2",
+                                                                                   "Unterrang 20",
+                                                                                   "Unterrang 3",
+                                                                                   "Unterrang 4",
+                                                                                   "Unterrang 5",
+                                                                                   "Unterrang 6",
+                                                                                   "Unterrang 7",
+                                                                                   "Unterrang 8",
+                                                                                   "Unterrang 9",
+                                                                                   "Unterrang 15",
+                                                                                   "Unterrang 16",
+                                                                                   "Unterrang 17",
+                                                                                   "Unterrang 18",
+                                                                                   "Unterrang 19"
+                                                                               ]
+                                                              },
+                                                              {
+                                                                  "name":  "Rang",
+                                                                  "sections":  [
+                                                                                   "Mittelrang",
+                                                                                   "Mitte 1",
+                                                                                   "Mitte 10",
+                                                                                   "Mitte 11",
+                                                                                   "Mitte 12",
+                                                                                   "Mitte 13",
+                                                                                   "Mitte 14",
+                                                                                   "Mitte 15",
+                                                                                   "Mitte 16",
+                                                                                   "Mitte 17",
+                                                                                   "Mitte 18",
+                                                                                   "Mitte 19",
+                                                                                   "Mitte 2",
+                                                                                   "Mitte 20",
+                                                                                   "Mitte 3",
+                                                                                   "Mitte 4",
+                                                                                   "Mitte 5",
+                                                                                   "Mitte 6",
+                                                                                   "Mitte 7",
+                                                                                   "Mitte 8",
+                                                                                   "Mitte 9"
+                                                                               ]
+                                                              }
+                                                          ],
+                                        "performers":  [
+                                                           {
+                                                               "id":  "01fwjwzx2dwahbjhas84edhchq",
+                                                               "name":  "DJ Bobo"
+                                                           }
+                                                       ],
+                                        "category":  {
+                                                         "id":  "01fwjxam1t7ths6war49hp9aw3",
+                                                         "name":  "Rock \u0026 Pop",
+                                                         "upcoming_events":  0
+                                                     }
+                                    }
+                                ]
+                 }
+             ],
+    "meta":  {
+                 "mode":  "Sandbox",
+                 "type":  "partner.venue.get",
+                 "current_page":  1,
+                 "from":  1,
+                 "path":  "https://sandbox-pf.tixstock.com/v1/venues/feed",
+                 "per_page":  10,
+                 "to":  6,
+                 "request_id":  ""
+             },
+    "links":  {
+                  "first":  "https://sandbox-pf.tixstock.com/v1/venues/feed?page=1",
+                  "last":  null,
+                  "prev":  null,
+                  "next":  null
+              }
+}

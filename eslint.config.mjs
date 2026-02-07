@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Utility scripts using CommonJS:
+    "analyze_data.js",
+    "inspect_event_keys.js",
+    "scripts/**",
   ]),
 ]);
 

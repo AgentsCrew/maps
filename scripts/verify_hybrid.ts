@@ -1,6 +1,6 @@
 
 import { generateMockTickets } from '../src/utils/mockGenerator';
-import { Event, Venue } from '../src/types';
+import { Event, VenueSection } from '../src/types';
 
 // Mock the API fetch by using the real JSON we saved earlier
 // In a real integration test we would mock the fetch, but here we just want to test logic
@@ -57,7 +57,7 @@ async function verify() {
         console.log(`   Sections found: ${venueDetails.length} groups`);
 
         // Print first few sections to prove they are real
-        console.log(`   Sample Sections: ${venueDetails.slice(0, 2).map((v: any) => v.name).join(', ')}...`);
+        console.log(`   Sample Sections: ${venueDetails.slice(0, 2).map((v: VenueSection) => v.name).join(', ')}...`);
 
         console.log("\n2. Generating Hybrid Tickets...");
         const mockEvent: Event = {
@@ -77,7 +77,7 @@ async function verify() {
             console.log(`   Price: ${firstTicket.proceed_price.amount} ${firstTicket.proceed_price.currency}`);
 
             // Verify the section actually exists in the venue
-            const exists = realVenue.venue_details.some((v: any) => v.name === firstTicket.seat_details.category);
+            const exists = realVenue.venue_details.some((v: VenueSection) => v.name === firstTicket.seat_details.category);
             if (exists) {
                 console.log("✅ Verified: Ticket section matches API venue data.");
             } else {

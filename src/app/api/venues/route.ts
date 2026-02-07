@@ -1,12 +1,18 @@
 
 import { NextResponse } from 'next/server';
-import venueData from '@/data/real_venue.json';
+import fs from 'fs';
+import path from 'path';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
 export async function GET() {
     try {
+        // Read JSON file from filesystem (works better with Vercel serverless)
+        const filePath = path.join(process.cwd(), 'src', 'data', 'real_venue.json');
+        const fileContents = fs.readFileSync(filePath, 'utf8');
+        const venueData = JSON.parse(fileContents);
+
         // Ensure data is properly serialized
         const response = NextResponse.json(venueData);
         response.headers.set('Cache-Control', 'no-store');

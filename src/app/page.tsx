@@ -8,7 +8,7 @@ import { Calendar, MapPin, Loader2 } from 'lucide-react';
 import { useTicketStore } from '../store/ticketStore';
 import { fetchRealVenues, fetchRealTickets } from '../lib/api';
 import { generateMockTickets } from '../utils/mockGenerator';
-import { Event } from '../types';
+import { Event, Venue, VenueSection } from '../types';
 
 // Fallback if API fails completely
 import { MOCK_EVENT } from '../data/mockData';
@@ -29,8 +29,8 @@ export default function Home() {
 
         if (venues.length > 0) {
           // Find a venue that actually has details (likely inside its events array)
-          let realVenue: any = null;
-          let venueDetails: any[] = [];
+          let realVenue: Venue | null = null;
+          let venueDetails: VenueSection[] = [];
 
           for (const v of venues) {
             // Check if venue has details at root
